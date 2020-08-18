@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+
+    <TextView
+        android:id="@+id/stateTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/confrmTv"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_red"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/actvTv"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rcrvdTv"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_green"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/dscdTv"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textColor="@color/dark_yellow"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
